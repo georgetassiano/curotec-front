@@ -59,18 +59,7 @@ export default {
   name: 'IndexPage',
   data() {
     return {
-      tasks: [
-        {
-          id: 100,
-          description: 'teste',
-          active: false,
-        },
-        {
-          id: 101,
-          description: 'teste2',
-          active: true,
-        },
-      ],
+      tasks: [],
       description: '',
       loading: false,
     }
